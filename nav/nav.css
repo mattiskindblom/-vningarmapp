@@ -1,11 +1,18 @@
 *{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   font-size: 16px;
   line-height: 1.5;
+  background-color: rgb(31, 31, 31);
+}
+
+main {
+  background-color: rgb(24, 24, 24);
+  color: #e7e7e7;
 }
 
 p {
@@ -26,8 +33,10 @@ h1 {
 
 .navbar {
   min-height: 3rem;
-  background-color: #dcdcdc;
+  background-color: #101010;
   font-size: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
 }
 
 .navbar-inner {
@@ -55,7 +64,7 @@ h1 {
 
 .nav-link {
   text-decoration: none;
-  color: #101010;
+  color: #e7e7e7;
 }
 
 .nav-link:hover {
@@ -63,8 +72,12 @@ h1 {
 }
 
 .navbar-brand {
-  color: #101010;
+  color: #e7e7e7;
   text-transform: uppercase;
-  font-weight: 200;
   text-decoration: none;
+}
+
+span {
+  font-weight: 500;
+  opacity: .8;
 }
