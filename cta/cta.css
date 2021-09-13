@@ -14,6 +14,7 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     z-index: 10;
+    font-family: cursive;
 }
 .cta-filter {
     position: absolute;
@@ -27,6 +28,7 @@
     text-align: right;
     color: #dcdcdc;
     z-index: 10;
+    font-family: sans-serif;
 }
 .cta-right > p {
     font-size: 2rem;
