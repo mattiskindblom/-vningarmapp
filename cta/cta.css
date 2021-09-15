@@ -5,6 +5,14 @@
     width: 100%;
     color: #dcdcdc;
     z-index: 0;
+
+    &-filter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.432);
+        z-index: -1;
+    }
 }
 .cta > h1 {
     font-size: 5rem;
@@ -16,13 +24,7 @@
     z-index: 10;
     font-family: cursive;
 }
-.cta-filter {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.432);
-    z-index: -1;
-}
+
 .cta-right {
     padding: 0 2rem;
     text-align: right;

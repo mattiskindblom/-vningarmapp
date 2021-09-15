@@ -1,0 +1,33 @@
+$primary: #00aaff;
+
+$breakpoint-lg:48rem;
+$breakpoint-md:$breakpoint-lg / 2;
+$breakpoint-sm:$breakpoint-md / 2;
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: $primary;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+@import "utilities/container";
+
+@import "components/card";
+
+@import "components/cta";
+
+@import "components/nav";
+
+@import "components/footer"
